@@ -1,0 +1,23 @@
+- System
+	- Component
+		+ name
+		+ type
+		- Hardware as Component
+			+ maximum capacity
+			+ maximum memory
+			+ List<Software>
+			- Power Hardware as Hardware				
+			- Heavy Hardware as Hardware
+			
+		- Software as Component
+			+ capacity consumption
+			+ memory consumption
+			- Express Software as Software
+			- Light Software as Software
+
+	- Capacity
+		+ maximum
+		+ consumption
+	- Memory
+		+ maximum
+		+ consumption
